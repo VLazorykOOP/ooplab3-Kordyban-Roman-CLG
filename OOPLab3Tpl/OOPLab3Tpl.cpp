@@ -17,8 +17,8 @@ int main()
 
     int conv = 1;
     if (conv == 1) conv = mainExample1();
-    if (conv == 1) conv = mainExample3(); 
-    if (conv == 1) conv = mainExample4();
+    if (conv == 2) conv = mainExample3(); 
+    if (conv == 3) conv = mainExample4();
 
 }
 
