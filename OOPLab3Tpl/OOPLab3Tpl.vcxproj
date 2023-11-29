@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClInclude Include="task1.hpp" />
     <ClInclude Include="task2.hpp" />
+    <ClInclude Include="task3.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

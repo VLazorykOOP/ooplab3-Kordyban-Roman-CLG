@@ -1,17 +1,19 @@
 #include"task1.hpp"
+#include"task2.hpp"
+#include"task3.hpp"
 int main()
 {
-    int task = 1, result = 0;
+    int task = 2, result = 0;
     switch (task)
     {
     case 1:
         result = task1();
         break;
     case 2:
-        //result = task2();
+        result = task2();
         break;
     case 3:
-        //result = task3();
+        result = task3();
         break;
     default:
         break;
