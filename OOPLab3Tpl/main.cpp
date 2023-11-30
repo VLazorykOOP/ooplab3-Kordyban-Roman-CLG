@@ -3,20 +3,20 @@
 #include"task3.hpp"
 int main()
 {
-    int task = 2, result = 0;
-    switch (task)
+    int task=3,result=0;
+    switch(task)
     {
-    case 1:
-        result = task1();
-        break;
-    case 2:
-        result = task2();
-        break;
-    case 3:
-        result = task3();
-        break;
-    default:
-        break;
+        case 1:
+            result=task1();
+            break;
+        case 2:
+            result=task2();
+            break;
+        case 3:
+            result=task3();
+            break;
+        default:
+            break;
     }
     return result;
 }
