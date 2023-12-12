@@ -1,4 +1,4 @@
-﻿//3.2 not started
+﻿//3.2 completed
 #include <iostream>
 template <typename T>
 class Matrix

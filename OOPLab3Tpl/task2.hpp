@@ -1,4 +1,4 @@
-﻿//2.10 in process
+﻿//2.10 completed
 #include <iostream>
 using namespace std;
 class RepeatedRangeSet

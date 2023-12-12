@@ -3,7 +3,7 @@
 #include"task3.hpp"
 int main()
 {
-    int task=3,result=0;
+    int task=1,result=0;
     switch(task)
     {
         case 1:
