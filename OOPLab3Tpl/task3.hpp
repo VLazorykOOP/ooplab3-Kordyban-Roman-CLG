@@ -97,7 +97,7 @@ public:
     }
 };
 
-int task3()
+void t3()
 {
     Matrix<float> mat1(3,4,1);
     mat1.print();
@@ -115,7 +115,6 @@ int task3()
     mat1=mat2;
     if(mat1==mat2) { cout<<"mat1 == mat2"<<endl; }
     else { cout<<"mat1 != mat2"<<endl; }
-    return 0;
 }
 
 /*

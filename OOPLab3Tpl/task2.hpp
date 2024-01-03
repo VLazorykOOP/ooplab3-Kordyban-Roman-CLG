@@ -124,7 +124,7 @@ public:
     unsigned int getSize() const { return end-beg; }
 };
 
-int task2()
+void t2()
 {
     RepeatedRangeSet set1;
     RepeatedRangeSet set2(50);
@@ -160,7 +160,6 @@ int task2()
     if(set3>set4) { cout<<"set3>set4\n"; }
     else { cout<<"set3<=set4\n"; }
     cout<<"set1.getState(): "<<set1.getState()<<endl;
-    return 0;
 }
 
 /*

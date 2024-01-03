@@ -70,7 +70,7 @@ figure randomTriangle()
     return tmp_figure;
 }
 
-int task1()
+void t1()
 {
     unsigned int seed=-0;
     if(!seed) { seed=int(time(0)); }
@@ -82,5 +82,4 @@ int task1()
         figure tmp=randomTriangle();
         tmp.print();
     }
-    return 0;
 }
